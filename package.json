@@ -1,20 +1,55 @@
 {
-  "name": "nextjs-practice",
+  "name": "nextsocial",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@artsy/fresnel": "^1.2.2",
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "axios": "^0.21.0",
+    "bcryptjs": "^2.4.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "framer-motion": "^4.1.17",
+    "gray-matter": "^4.0.3",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.14",
     "next": "11.1.0",
+    "next-redux-wrapper": "^7.0.2",
+    "nodemailer": "^6.4.8",
+    "nodemailer-sendgrid": "^1.0.3",
+    "nookies": "^2.3.0",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-cropper": "^2.1.7",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-infinite-scroll-component": "6.0.0",
+    "react-moment": "^1.1.1",
+    "react-redux": "^7.2.4",
+    "react-thunk": "^1.0.0",
+    "react-toastify": "^6.0.5",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "uuid": "^8.2.0",
+    "validator": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "eslint-config-next": "11.1.0",
+    "sass": "^1.42.1"
   }
 }
