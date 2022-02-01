@@ -1,18 +1,21 @@
+import { Flex } from "@chakra-ui/react";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { FaSignInAlt, FaEdit } from "react-icons/fa";
-import { IconContext } from "react-icons";
 
 function Navbar() {
   return (
-    <div>
+    <Flex>
       <Link href="/login">
-        <FaSignInAlt />
+        <a>
+          <FaSignInAlt />
+        </a>
       </Link>
       <Link href="/signup">
-        <FaEdit  />
+        <a>
+          <FaEdit />
+        </a>
       </Link>
-    </div>
+    </Flex>
   );
 }
 
